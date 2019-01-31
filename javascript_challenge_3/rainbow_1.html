@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>rainbow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <script src="main.js"></script> -->
+    <style>
+        div {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="red" onclick="myRed()">red</div>
+    <div class="container" id="orange" onclick="myOrange()">orange</div>
+    <div class="container" id="yellow" onclick="myYellow()">yellow</div>
+    <div class="container" id="green" onclick="myGreen()">green</div>
+    <div class="container" id="blue" onclick="myBlue()">blue</div>
+    <div class="container" id="indigo" onclick="myIndigo()">Indigo</div>
+    <div class="container" id="violet" onclick="myViolet()">Violet</div>
+
+
+
+    <script>
+        var rainbow = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"];
+
+        function myRed() {
+            document.getElementById("red").style.backgroundColor = rainbow[0];
+        }
+
+        function myOrange() {
+            document.getElementById("orange").style.backgroundColor = rainbow[1];
+        }
+
+        function myYellow() {
+            document.getElementById("yellow").style.backgroundColor = rainbow[2];
+        }
+
+        function myGreen() {
+            document.getElementById("green").style.backgroundColor = rainbow[3];
+        }
+
+        function myBlue() {
+            document.getElementById("blue").style.backgroundColor = rainbow[4];
+        }
+
+        function myIndigo() {
+            document.getElementById("indigo").style.backgroundColor = rainbow[5];
+        }
+
+        function myViolet() {
+            document.getElementById("violet").style.backgroundColor = rainbow[6];
+        }
+
+    </script>
+</body>
+
+</html>
